@@ -86,4 +86,13 @@ public class Fila {
             }
         }
     }
+
+    public void printaFila() {
+        System.out.println("Fila de espera: ");
+        System.out.println("----------------------------------");
+        for (Nodo aux = this.prim; aux != null; aux = aux.getProx()) {
+            System.out.println(aux.getInfo().toString());
+        }
+        System.out.println("----------------------------------");
+    }
 }

@@ -1,0 +1,268 @@
+{
+  "ddds": [
+    {
+      "codigo": 11,
+      "preco": 0.03
+    },
+    {
+      "codigo": 12,
+      "preco": 0.03
+    },
+    {
+      "codigo": 13,
+      "preco": 0.03
+    },
+    {
+      "codigo": 14,
+      "preco": 0.03
+    },
+    {
+      "codigo": 15,
+      "preco": 0.03
+    },
+    {
+      "codigo": 16,
+      "preco": 0.03
+    },
+    {
+      "codigo": 17,
+      "preco": 0.03
+    },
+    {
+      "codigo": 18,
+      "preco": 0.03
+    },
+    {
+      "codigo": 21,
+      "preco": 0.06
+    },
+    {
+      "codigo": 22,
+      "preco": 0.06
+    },
+    {
+      "codigo": 24,
+      "preco": 0.06
+    },
+    {
+      "codigo": 27,
+      "preco": 0.06
+    },
+    {
+      "codigo": 28,
+      "preco": 0.06
+    },
+    {
+      "codigo": 31,
+      "preco": 0.09
+    },
+    {
+      "codigo": 32,
+      "preco": 0.09
+    },
+    {
+      "codigo": 33,
+      "preco": 0.09
+    },
+    {
+      "codigo": 34,
+      "preco": 0.09
+    },
+    {
+      "codigo": 35,
+      "preco": 0.09
+    },
+    {
+      "codigo": 37,
+      "preco": 0.09
+    },
+    {
+      "codigo": 38,
+      "preco": 0.09
+    },
+    {
+      "codigo": 41,
+      "preco": 0.12
+    },
+    {
+      "codigo": 42,
+      "preco": 0.12
+    },
+    {
+      "codigo": 43,
+      "preco": 0.12
+    },
+    {
+      "codigo": 44,
+      "preco": 0.12
+    },
+    {
+      "codigo": 45,
+      "preco": 0.12
+    },
+    {
+      "codigo": 46,
+      "preco": 0.12
+    },
+    {
+      "codigo": 47,
+      "preco": 0.12
+    },
+    {
+      "codigo": 48,
+      "preco": 0.12
+    },
+    {
+      "codigo": 49,
+      "preco": 0.12
+    },
+    {
+      "codigo": 51,
+      "preco": 0.15
+    },
+    {
+      "codigo": 53,
+      "preco": 0.15
+    },
+    {
+      "codigo": 54,
+      "preco": 0.15
+    },
+    {
+      "codigo": 55,
+      "preco": 0.15
+    },
+    {
+      "codigo": 61,
+      "preco": 0.18
+    },
+    {
+      "codigo": 62,
+      "preco": 0.18
+    },
+    {
+      "codigo": 63,
+      "preco": 0.18
+    },
+    {
+      "codigo": 64,
+      "preco": 0.18
+    },
+    {
+      "codigo": 65,
+      "preco": 0.18
+    },
+    {
+      "codigo": 66,
+      "preco": 0.18
+    },
+    {
+      "codigo": 67,
+      "preco": 0.18
+    },
+    {
+      "codigo": 68,
+      "preco": 0.18
+    },
+    {
+      "codigo": 69,
+      "preco": 0.18
+    },
+    {
+      "codigo": 71,
+      "preco": 0.21
+    },
+    {
+      "codigo": 73,
+      "preco": 0.21
+    },
+    {
+      "codigo": 74,
+      "preco": 0.21
+    },
+    {
+      "codigo": 75,
+      "preco": 0.21
+    },
+    {
+      "codigo": 77,
+      "preco": 0.21
+    },
+    {
+      "codigo": 79,
+      "preco": 0.21
+    },
+    {
+      "codigo": 81,
+      "preco": 0.24
+    },
+    {
+      "codigo": 82,
+      "preco": 0.24
+    },
+    {
+      "codigo": 83,
+      "preco": 0.24
+    },
+    {
+      "codigo": 84,
+      "preco": 0.24
+    },
+    {
+      "codigo": 85,
+      "preco": 0.24
+    },
+    {
+      "codigo": 86,
+      "preco": 0.24
+    },
+    {
+      "codigo": 87,
+      "preco": 0.24
+    },
+    {
+      "codigo": 88,
+      "preco": 0.24
+    },
+    {
+      "codigo": 89,
+      "preco": 0.24
+    },
+    {
+      "codigo": 91,
+      "preco": 0.27
+    },
+    {
+      "codigo": 92,
+      "preco": 0.27
+    },
+    {
+      "codigo": 93,
+      "preco": 0.27
+    },
+    {
+      "codigo": 94,
+      "preco": 0.27
+    },
+    {
+      "codigo": 95,
+      "preco": 0.27
+    },
+    {
+      "codigo": 96,
+      "preco": 0.27
+    },
+    {
+      "codigo": 97,
+      "preco": 0.27
+    },
+    {
+      "codigo": 98,
+      "preco": 0.27
+    },
+    {
+      "codigo": 99,
+      "preco": 0.27
+    }
+  ]
+}

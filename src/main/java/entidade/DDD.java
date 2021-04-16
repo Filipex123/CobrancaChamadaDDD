@@ -17,4 +17,12 @@ public class DDD {
     public float getPreco() {
         return preco;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "codigo=" + codigo +
+                ", preco=" + preco +
+                '}';
+    }
 }

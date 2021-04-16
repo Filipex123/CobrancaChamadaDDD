@@ -63,4 +63,12 @@ public class Chamada {
 
         return dddAchado.get();
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "numero='" + numero + '\'' +
+                ", ddd=" + ddd +
+                '}';
+    }
 }

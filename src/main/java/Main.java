@@ -18,10 +18,7 @@ public class Main {
             Fila filaChamada = new Fila();
 
             filaChamada.insere("(18)44366-7880");
-            filaChamada.insere("(19)44366-7880");
-            filaChamada.insere("(45)44366-7880");
-            filaChamada.insere("(78)44366-7880");
-            filaChamada.insere("(99)44366-7880");
+
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }

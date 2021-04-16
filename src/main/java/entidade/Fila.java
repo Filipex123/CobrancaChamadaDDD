@@ -40,11 +40,11 @@ public class Fila {
         Nodo novo = new Nodo(elem);
 
         if(this.prim == null) {
+            //TODO remover parenteses do primeiro
             this.prim = novo;
             this.ult = novo;
         } else {
-            this.ult.setProx(novo);
-            this.ult = this.ult.getProx();
+            inserOrdenada(novo);
         }
     }
 
@@ -69,28 +69,25 @@ public class Fila {
          return this.prim == null;
     }
 
-    private void ordena(String elem) {
+    private void inserOrdenada(Nodo novo) {
+        //TODO padronizar texto de numero
+        Integer ddd = Integer.parseInt(novo.getInfo().replace("(", "").substring(0,2));
 
-        Integer ddd = Integer.parseInt(elem.replace("(", "").substring(0,2));
 
         for(Nodo aux = this.prim ; aux != null ; aux = aux.getProx()) {
-            //TODO ordenação ASC
-        }
-    }
+            Integer dddAux = Integer.parseInt(aux.getInfo().substring(0,2));
+            Integer dddAuxProx = Integer.parseInt(aux.getProx().getInfo().substring(0,2));
+            //TODO inserir por ultimo caso tenha igual
 
-
-    public void insertionSort(int[] vetor){
-        for (int i = 1; i < vetor.length; i++){
-
-            int aux = vetor[i];
-            int j = i;
-
-            while ((j > 0) && (vetor[j-1] > aux)){
-                vetor[j] = vetor[j-1];
-                j -= 1;
+            if(ddd > dddAux) {
+                novo.setProx(this.prim);
+                this.prim = novo;
+            } else if(ddd <= dddAux && ddd > dddAuxProx) {
+                novo.setProx(aux.getProx());
+                aux.setProx(novo);
+            } else {
+                //TODO colocar no final de elementos iguais
             }
-            vetor[j] = aux;
         }
     }
-
 }

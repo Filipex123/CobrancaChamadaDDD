@@ -9,4 +9,8 @@ public class ListaDDDs {
     public ListaDDDs(List<DDD> ddds) {
         this.ddds = ddds;
     }
+
+    public List<DDD> getDdds() {
+        return ddds;
+    }
 }

@@ -1,23 +1,22 @@
-import com.google.gson.Gson;
+import entidade.Chamada;
 import entidade.Fila;
 import entidade.ListaDDDs;
-
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import ferramenta.JsonUtils;
 
 public class Main {
     public static void main(String[] args) {
 
         try {
-            String json = String.join(" ", Files.readAllLines(
-                    Paths.get("./src/main/resources/ddd.json"), StandardCharsets.UTF_8));
-
-            ListaDDDs listaDDDs = new Gson().fromJson(json, ListaDDDs.class);
+            ListaDDDs listaDDDs = JsonUtils.getListaDDD();
 
             Fila filaChamada = new Fila();
 
-            filaChamada.insere("(18)44366-7880");
+            filaChamada.insere(new Chamada("9900000000", listaDDDs));
+            filaChamada.insere(new Chamada("34111111111", listaDDDs));
+            filaChamada.insere(new Chamada("3422222-2222", listaDDDs));
+            filaChamada.insere(new Chamada("(34)333333333", listaDDDs));
+            filaChamada.insere(new Chamada("(55)444444444", listaDDDs));
+            System.out.println("bla");
 
         } catch (Exception ex) {
             System.out.println(ex.getMessage());

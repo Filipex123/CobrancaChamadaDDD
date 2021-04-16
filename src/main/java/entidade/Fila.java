@@ -3,18 +3,18 @@ package entidade;
 public class Fila {
 
     private class Nodo {
-        private String info;
+        private Chamada info;
         private Nodo prox;
 
-        public Nodo(String info) {
+        public Nodo(Chamada info) {
             this.info = info;
         }
 
-        public String getInfo() {
+        public Chamada getInfo() {
             return info;
         }
 
-        public void setInfo(String info) {
+        public void setInfo(Chamada info) {
             this.info = info;
         }
 
@@ -30,30 +30,24 @@ public class Fila {
     private Nodo prim;
     private Nodo ult;
 
-    public void insere(String elem) throws Exception {
-
-        //regex para validar entrada de numero telefônico
-        if (!elem.matches("^\\(?[0-9]{2}\\)?[0-9]{5}-?[0-9]{4}$")) {
-            throw new Exception("Número telefônico inválido");
-        }
+    public void insere(Chamada elem) throws Exception {
 
         Nodo novo = new Nodo(elem);
 
         if(this.prim == null) {
-            //TODO remover parenteses do primeiro
             this.prim = novo;
             this.ult = novo;
         } else {
-            inserOrdenada(novo);
+            insereOrdenada(novo);
         }
     }
 
-    public String remove() throws Exception {
+    public Chamada remove() throws Exception {
         if(isVazia()) {
             throw new Exception("Fila vazia");
         }
 
-        String aux = this.prim.getInfo();
+        Chamada aux = this.prim.getInfo();
 
         if(this.prim == this.ult) {
             this.prim = null;
@@ -69,24 +63,26 @@ public class Fila {
          return this.prim == null;
     }
 
-    private void inserOrdenada(Nodo novo) {
-        //TODO padronizar texto de numero
-        Integer ddd = Integer.parseInt(novo.getInfo().replace("(", "").substring(0,2));
+    private void insereOrdenada(Nodo novo) {
 
-
+        int ddd = novo.getInfo().getDdd().getCodigo();
         for(Nodo aux = this.prim ; aux != null ; aux = aux.getProx()) {
-            Integer dddAux = Integer.parseInt(aux.getInfo().substring(0,2));
-            Integer dddAuxProx = Integer.parseInt(aux.getProx().getInfo().substring(0,2));
-            //TODO inserir por ultimo caso tenha igual
+            if(aux.getProx() == null) {
+                aux.setProx(novo);
+                return;
+            }
 
-            if(ddd > dddAux) {
+            int dddAux = aux.getInfo().getDdd().getCodigo();
+            int dddAuxProx = aux.getProx().getInfo().getDdd().getCodigo();
+
+            if(ddd > dddAux && this.prim.getInfo().getDdd().getCodigo() == dddAux) {
                 novo.setProx(this.prim);
                 this.prim = novo;
+                return;
             } else if(ddd <= dddAux && ddd > dddAuxProx) {
                 novo.setProx(aux.getProx());
                 aux.setProx(novo);
-            } else {
-                //TODO colocar no final de elementos iguais
+                return;
             }
         }
     }

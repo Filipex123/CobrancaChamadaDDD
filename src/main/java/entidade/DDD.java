@@ -20,9 +20,9 @@ public class DDD {
 
     @Override
     public String toString() {
-        return "{" +
-                "codigo=" + codigo +
-                ", preco=" + preco +
-                '}';
+        return "{ " +
+                "codigo = " + codigo +
+                ", preco = " + preco +
+                " }";
     }
 }

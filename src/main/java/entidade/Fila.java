@@ -37,7 +37,11 @@ public class Fila {
         if(this.prim == null) {
             this.prim = novo;
             this.ult = novo;
-        } else {
+        } else if (elem.getDdd().getCodigo() == 19) {
+            this.ult.setProx(novo);
+            this.ult = this.ult.getProx();
+        }
+        else {
             insereOrdenada(novo);
         }
     }
@@ -69,6 +73,7 @@ public class Fila {
         for(Nodo aux = this.prim ; aux != null ; aux = aux.getProx()) {
             if(aux.getProx() == null) {
                 aux.setProx(novo);
+                this.ult = aux.getProx();
                 return;
             }
 
@@ -90,8 +95,10 @@ public class Fila {
     public void printaFila() {
         System.out.println("Fila de espera: ");
         System.out.println("----------------------------------");
+        int pos = 1;
         for (Nodo aux = this.prim; aux != null; aux = aux.getProx()) {
-            System.out.println(aux.getInfo().toString());
+            System.out.println("Posição na fila: "+pos+"º " + aux.getInfo().toString());
+            pos++;
         }
         System.out.println("----------------------------------");
     }

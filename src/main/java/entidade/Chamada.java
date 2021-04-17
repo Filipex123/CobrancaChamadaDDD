@@ -66,9 +66,9 @@ public class Chamada {
 
     @Override
     public String toString() {
-        return "{" +
-                "numero='" + numero + '\'' +
-                ", ddd=" + ddd +
-                '}';
+        return "{ " +
+                "numero = '" + numero + '\'' +
+                ", ddd = " + ddd +
+                " }";
     }
 }

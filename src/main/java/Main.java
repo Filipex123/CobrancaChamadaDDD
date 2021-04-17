@@ -20,7 +20,7 @@ public class Main {
             filaChamada.insere(new Chamada("34111111111", listaDDDs));
             filaChamada.insere(new Chamada("3422222-2222", listaDDDs));
             filaChamada.insere(new Chamada("(34)333333333", listaDDDs));
-            filaChamada.insere(new Chamada("(55)444444444", listaDDDs));
+            filaChamada.insere(new Chamada("(11)444444444", listaDDDs));
 
             System.out.println("Digite seu numero: ");
             String digitado = TECLADO.readLine();

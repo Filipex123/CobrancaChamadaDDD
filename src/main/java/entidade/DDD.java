@@ -14,10 +14,6 @@ public class DDD {
         return codigo;
     }
 
-    public float getPreco() {
-        return preco;
-    }
-
     @Override
     public String toString() {
         return "{ " +

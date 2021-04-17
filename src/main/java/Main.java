@@ -22,10 +22,16 @@ public class Main {
             filaChamada.insere(new Chamada("(34)333333333", listaDDDs));
             filaChamada.insere(new Chamada("(11)444444444", listaDDDs));
 
-            System.out.println("Digite seu numero: ");
-            String digitado = TECLADO.readLine();
-            filaChamada.insere(new Chamada(digitado, listaDDDs));
-            filaChamada.printaFila();
+            while (true) {
+                System.out.println("#### Para encerrar do programa digite 'sair' ####");
+                System.out.println("Digite seu numero: ");
+                String digitado = TECLADO.readLine();
+                if(digitado.equals("sair")) {
+                    break;
+                }
+                filaChamada.insere(new Chamada(digitado, listaDDDs));
+                filaChamada.printaFila();
+            }
 
         } catch (Exception ex) {
             System.out.println(ex.getMessage());

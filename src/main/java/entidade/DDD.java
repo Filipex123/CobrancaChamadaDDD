@@ -4,10 +4,12 @@ public class DDD {
 
     private int codigo;
     private float preco;
+    private String estado;
 
-    public DDD(int codigo, float preco) {
+    public DDD(int codigo, float preco, String estado) {
         this.codigo = codigo;
         this.preco = preco;
+        this.estado = estado;
     }
 
     public int getCodigo() {
@@ -16,9 +18,10 @@ public class DDD {
 
     @Override
     public String toString() {
-        return "{ " +
+        return " " +
                 "codigo = " + codigo +
                 ", preco = " + preco +
-                " }";
+                ", estado = " + estado +
+                " ";
     }
 }

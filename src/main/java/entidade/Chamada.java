@@ -8,6 +8,7 @@ public class Chamada {
 
     private String numero;
     private DDD ddd;
+    private String estado;
 
     public String getNumero() {
         return numero;
@@ -20,6 +21,7 @@ public class Chamada {
     public Chamada(String numero, ListaDDDs listaDDDs) throws Exception {
         this.ddd = procuraDDD(listaDDDs, numero);
         this.numero = formataNumero(numero);
+
     }
 
     private String formataNumero(String numero) throws ParseException {
@@ -66,9 +68,9 @@ public class Chamada {
 
     @Override
     public String toString() {
-        return "{ " +
-                "numero = '" + numero + '\'' +
+        return " " +
+                "numero = " + numero + '\'' +
                 ", ddd = " + ddd +
-                " }";
+                " ";
     }
 }

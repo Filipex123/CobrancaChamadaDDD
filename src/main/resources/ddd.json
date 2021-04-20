@@ -2,271 +2,338 @@
   "ddds": [
     {
       "codigo": 11,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 12,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 13,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 14,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 15,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 16,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 17,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 18,
-      "preco": 0.03
+      "preco": 0.03,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 19,
-      "preco": 0.01
+      "preco": 0.01,
+      "estado" : "São Paulo"
     },
     {
       "codigo": 21,
-      "preco": 0.06
+      "preco": 0.06,
+      "estado" : "Rio de Janeiro"
     },
     {
       "codigo": 22,
-      "preco": 0.06
+      "preco": 0.06,
+      "estado" : "Rio de Janeiro"
     },
     {
       "codigo": 24,
-      "preco": 0.06
+      "preco": 0.06,
+      "estado" : "Rio de Janeiro"
     },
     {
       "codigo": 27,
-      "preco": 0.06
+      "preco": 0.06,
+      "estado" : "Espírito Santo"
     },
     {
       "codigo": 28,
-      "preco": 0.06
+      "preco": 0.06,
+      "estado" : "Espírito Santo"
     },
     {
       "codigo": 31,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 32,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 33,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 34,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 35,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 37,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 38,
-      "preco": 0.09
+      "preco": 0.09,
+      "estado" : "Minas Gerais"
     },
     {
       "codigo": 41,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 42,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 43,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 44,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 45,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 46,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Paraná"
     },
     {
       "codigo": 47,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Santa Catarina"
     },
     {
       "codigo": 48,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Santa Catarina"
     },
     {
       "codigo": 49,
-      "preco": 0.12
+      "preco": 0.12,
+      "estado" : "Santa Catarina"
     },
     {
       "codigo": 51,
-      "preco": 0.15
+      "preco": 0.15,
+      "estado" : "Rio Grande do Sul"
     },
     {
       "codigo": 53,
-      "preco": 0.15
+      "preco": 0.15,
+      "estado" : "Rio Grande do Sul"
     },
     {
       "codigo": 54,
-      "preco": 0.15
+      "preco": 0.15,
+      "estado" : "Rio Grande do Sul"
     },
     {
       "codigo": 55,
-      "preco": 0.15
+      "preco": 0.15,
+      "estado" : "Rio Grande do Sul"
     },
     {
       "codigo": 61,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Distrito Federal"
     },
     {
       "codigo": 62,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Goiás"
     },
     {
       "codigo": 63,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Tocantins"
     },
     {
       "codigo": 64,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Goiás"
     },
     {
       "codigo": 65,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Mato do Grosso"
     },
     {
       "codigo": 66,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Mato do Grosso"
     },
     {
       "codigo": 67,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Mato do Grosso do Sul"
     },
     {
       "codigo": 68,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Acre"
     },
     {
       "codigo": 69,
-      "preco": 0.18
+      "preco": 0.18,
+      "estado" : "Rodônia"
     },
     {
       "codigo": 71,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Bahia"
     },
     {
       "codigo": 73,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Bahia"
     },
     {
       "codigo": 74,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Bahia"
     },
     {
       "codigo": 75,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Bahia"
     },
     {
       "codigo": 77,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Bahia"
     },
     {
       "codigo": 79,
-      "preco": 0.21
+      "preco": 0.21,
+      "estado" : "Sergipe"
     },
     {
       "codigo": 81,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Pernambuco"
     },
     {
       "codigo": 82,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Alagoas"
     },
     {
       "codigo": 83,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Paraíba"
     },
     {
       "codigo": 84,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Rio Grande do Norte"
     },
     {
       "codigo": 85,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Ceará"
     },
     {
       "codigo": 86,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Piauí"
     },
     {
       "codigo": 87,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Pernambuco"
     },
     {
       "codigo": 88,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Ceará"
     },
     {
       "codigo": 89,
-      "preco": 0.24
+      "preco": 0.24,
+      "estado" : "Piauí"
     },
     {
       "codigo": 91,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Pará"
     },
     {
       "codigo": 92,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Amazonas"
     },
     {
       "codigo": 93,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Pará"
     },
     {
       "codigo": 94,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Pará"
     },
     {
       "codigo": 95,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Roraíma"
     },
     {
       "codigo": 96,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Amapá"
     },
     {
       "codigo": 97,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Amazonas"
     },
     {
       "codigo": 98,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Maranhão"
     },
     {
       "codigo": 99,
-      "preco": 0.27
+      "preco": 0.27,
+      "estado" : "Maranhão"
     }
   ]
 }
